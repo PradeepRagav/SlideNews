@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "NAStartUpViewController.h"
+#import "NAContentViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    NAContentViewController *startUPVC = [[NAContentViewController alloc] init];
+    self.window.rootViewController =startUPVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

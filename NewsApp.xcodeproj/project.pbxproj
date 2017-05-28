@@ -7,25 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451EE75C4E1974CF86C1C2F2 /* libPods-NewsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F46440E642CA91DCB2E13EDA /* libPods-NewsApp.a */; };
 		E50E56E61E068D710097C790 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E56E51E068D710097C790 /* main.m */; };
 		E50E56E91E068D710097C790 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E56E81E068D710097C790 /* AppDelegate.m */; };
-		E50E56EC1E068D710097C790 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E56EB1E068D710097C790 /* ViewController.m */; };
-		E50E56EF1E068D710097C790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50E56ED1E068D710097C790 /* Main.storyboard */; };
 		E50E56F11E068D710097C790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E50E56F01E068D710097C790 /* Assets.xcassets */; };
 		E50E56F41E068D710097C790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50E56F21E068D710097C790 /* LaunchScreen.storyboard */; };
+		E50E56FE1E068DC40097C790 /* PLCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E56FC1E068DC40097C790 /* PLCarouselView.m */; };
+		E50E56FF1E068DC40097C790 /* PLCarouselView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50E56FD1E068DC40097C790 /* PLCarouselView.xib */; };
+		E50E57031E068DD40097C790 /* NANewsPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50E57001E068DD40097C790 /* NANewsPage.xib */; };
+		E50E57041E068DD40097C790 /* NewsPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E57021E068DD40097C790 /* NewsPageViewController.m */; };
+		E50E57071E068DE80097C790 /* NANews.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E57061E068DE80097C790 /* NANews.m */; };
+		E50E570A1E068E0A0097C790 /* NAContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E57091E068E0A0097C790 /* NAContentViewController.m */; };
+		E50E57111E068FDD0097C790 /* NAStartUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E50E57101E068FDD0097C790 /* NAStartUpViewController.m */; };
+		E52856DD1E06A5BD00AE1844 /* NAPollingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52856DC1E06A5BD00AE1844 /* NAPollingPageViewController.m */; };
+		E52856E01E06B36D00AE1844 /* NAThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E52856DF1E06B36D00AE1844 /* NAThemeManager.m */; };
+		E58641161E069A180016EF8C /* NAPollingPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = E58641151E069A180016EF8C /* NAPollingPage.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FEF09D2AF5292A00F591EAC /* Pods-NewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsApp/Pods-NewsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		349CC809E4169BA7FCE39F58 /* Pods-NewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsApp/Pods-NewsApp.release.xcconfig"; sourceTree = "<group>"; };
 		E50E56E11E068D710097C790 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50E56E51E068D710097C790 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E50E56E71E068D710097C790 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E50E56E81E068D710097C790 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E50E56EA1E068D710097C790 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E50E56EB1E068D710097C790 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E50E56EE1E068D710097C790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E50E56F01E068D710097C790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E50E56F31E068D710097C790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E50E56F51E068D710097C790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E50E56FB1E068DC40097C790 /* PLCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCarouselView.h; sourceTree = "<group>"; };
+		E50E56FC1E068DC40097C790 /* PLCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCarouselView.m; sourceTree = "<group>"; };
+		E50E56FD1E068DC40097C790 /* PLCarouselView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLCarouselView.xib; sourceTree = "<group>"; };
+		E50E57001E068DD40097C790 /* NANewsPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NANewsPage.xib; sourceTree = "<group>"; };
+		E50E57011E068DD40097C790 /* NewsPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsPageViewController.h; sourceTree = "<group>"; };
+		E50E57021E068DD40097C790 /* NewsPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsPageViewController.m; sourceTree = "<group>"; };
+		E50E57051E068DE80097C790 /* NANews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NANews.h; sourceTree = "<group>"; };
+		E50E57061E068DE80097C790 /* NANews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NANews.m; sourceTree = "<group>"; };
+		E50E57081E068E0A0097C790 /* NAContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAContentViewController.h; sourceTree = "<group>"; };
+		E50E57091E068E0A0097C790 /* NAContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAContentViewController.m; sourceTree = "<group>"; };
+		E50E570F1E068FDD0097C790 /* NAStartUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAStartUpViewController.h; sourceTree = "<group>"; };
+		E50E57101E068FDD0097C790 /* NAStartUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAStartUpViewController.m; sourceTree = "<group>"; };
+		E52856DB1E06A5BD00AE1844 /* NAPollingPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAPollingPageViewController.h; sourceTree = "<group>"; };
+		E52856DC1E06A5BD00AE1844 /* NAPollingPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAPollingPageViewController.m; sourceTree = "<group>"; };
+		E52856DE1E06B36D00AE1844 /* NAThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAThemeManager.h; sourceTree = "<group>"; };
+		E52856DF1E06B36D00AE1844 /* NAThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAThemeManager.m; sourceTree = "<group>"; };
+		E58641151E069A180016EF8C /* NAPollingPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NAPollingPage.xib; sourceTree = "<group>"; };
+		F46440E642CA91DCB2E13EDA /* libPods-NewsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451EE75C4E1974CF86C1C2F2 /* libPods-NewsApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71B2DDBF2AF698E24F71E8A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF09D2AF5292A00F591EAC /* Pods-NewsApp.debug.xcconfig */,
+				349CC809E4169BA7FCE39F58 /* Pods-NewsApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C327B67CBC50B3DEB25B6EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F46440E642CA91DCB2E13EDA /* libPods-NewsApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E50E56D81E068D710097C790 = {
 			isa = PBXGroup;
 			children = (
 				E50E56E31E068D710097C790 /* NewsApp */,
 				E50E56E21E068D710097C790 /* Products */,
+				71B2DDBF2AF698E24F71E8A7 /* Pods */,
+				7C327B67CBC50B3DEB25B6EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +106,14 @@
 			children = (
 				E50E56E71E068D710097C790 /* AppDelegate.h */,
 				E50E56E81E068D710097C790 /* AppDelegate.m */,
-				E50E56EA1E068D710097C790 /* ViewController.h */,
-				E50E56EB1E068D710097C790 /* ViewController.m */,
-				E50E56ED1E068D710097C790 /* Main.storyboard */,
+				E50E570F1E068FDD0097C790 /* NAStartUpViewController.h */,
+				E50E57101E068FDD0097C790 /* NAStartUpViewController.m */,
+				E50E57081E068E0A0097C790 /* NAContentViewController.h */,
+				E50E57091E068E0A0097C790 /* NAContentViewController.m */,
+				E52856DE1E06B36D00AE1844 /* NAThemeManager.h */,
+				E52856DF1E06B36D00AE1844 /* NAThemeManager.m */,
+				E50E57121E0690290097C790 /* NewsPages */,
+				E50E570B1E068E4B0097C790 /* Carousel */,
 				E50E56F01E068D710097C790 /* Assets.xcassets */,
 				E50E56F21E068D710097C790 /* LaunchScreen.storyboard */,
 				E50E56F51E068D710097C790 /* Info.plist */,
@@ -79,6 +130,39 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E50E570B1E068E4B0097C790 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				E50E56FB1E068DC40097C790 /* PLCarouselView.h */,
+				E50E56FC1E068DC40097C790 /* PLCarouselView.m */,
+				E50E56FD1E068DC40097C790 /* PLCarouselView.xib */,
+			);
+			name = Carousel;
+			sourceTree = "<group>";
+		};
+		E50E57121E0690290097C790 /* NewsPages */ = {
+			isa = PBXGroup;
+			children = (
+				E50E57131E0690400097C790 /* model */,
+				E50E57001E068DD40097C790 /* NANewsPage.xib */,
+				E50E57011E068DD40097C790 /* NewsPageViewController.h */,
+				E50E57021E068DD40097C790 /* NewsPageViewController.m */,
+				E58641151E069A180016EF8C /* NAPollingPage.xib */,
+				E52856DB1E06A5BD00AE1844 /* NAPollingPageViewController.h */,
+				E52856DC1E06A5BD00AE1844 /* NAPollingPageViewController.m */,
+			);
+			name = NewsPages;
+			sourceTree = "<group>";
+		};
+		E50E57131E0690400097C790 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E50E57051E068DE80097C790 /* NANews.h */,
+				E50E57061E068DE80097C790 /* NANews.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E50E56F81E068D710097C790 /* Build configuration list for PBXNativeTarget "NewsApp" */;
 			buildPhases = (
+				F1DED67ADD25C81661866EC2 /* [CP] Check Pods Manifest.lock */,
 				E50E56DD1E068D710097C790 /* Sources */,
 				E50E56DE1E068D710097C790 /* Frameworks */,
 				E50E56DF1E068D710097C790 /* Resources */,
+				A60F9207A90A6E9F9C9266D3 /* [CP] Embed Pods Frameworks */,
+				FBBB02335666A1335DDE4AD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,36 +224,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E50E56FF1E068DC40097C790 /* PLCarouselView.xib in Resources */,
 				E50E56F41E068D710097C790 /* LaunchScreen.storyboard in Resources */,
+				E50E57031E068DD40097C790 /* NANewsPage.xib in Resources */,
 				E50E56F11E068D710097C790 /* Assets.xcassets in Resources */,
-				E50E56EF1E068D710097C790 /* Main.storyboard in Resources */,
+				E58641161E069A180016EF8C /* NAPollingPage.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A60F9207A90A6E9F9C9266D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsApp/Pods-NewsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1DED67ADD25C81661866EC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBBB02335666A1335DDE4AD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsApp/Pods-NewsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E50E56DD1E068D710097C790 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E50E56EC1E068D710097C790 /* ViewController.m in Sources */,
+				E52856DD1E06A5BD00AE1844 /* NAPollingPageViewController.m in Sources */,
+				E50E57071E068DE80097C790 /* NANews.m in Sources */,
+				E50E57111E068FDD0097C790 /* NAStartUpViewController.m in Sources */,
+				E50E570A1E068E0A0097C790 /* NAContentViewController.m in Sources */,
+				E50E56FE1E068DC40097C790 /* PLCarouselView.m in Sources */,
+				E52856E01E06B36D00AE1844 /* NAThemeManager.m in Sources */,
 				E50E56E91E068D710097C790 /* AppDelegate.m in Sources */,
 				E50E56E61E068D710097C790 /* main.m in Sources */,
+				E50E57041E068DD40097C790 /* NewsPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E50E56ED1E068D710097C790 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E50E56EE1E068D710097C790 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E50E56F21E068D710097C790 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,8 +405,11 @@
 		};
 		E50E56F91E068D710097C790 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEF09D2AF5292A00F591EAC /* Pods-NewsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tego.NewsApp;
@@ -281,8 +419,11 @@
 		};
 		E50E56FA1E068D710097C790 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 349CC809E4169BA7FCE39F58 /* Pods-NewsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NewsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tego.NewsApp;
@@ -309,6 +450,7 @@
 				E50E56FA1E068D710097C790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
